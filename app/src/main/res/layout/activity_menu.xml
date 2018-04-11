@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.toko.sahabat.MenuActivity">
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/searchButton"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/shape"
+            android:elevation="50dp"
+            android:text="@string/logout"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <ImageView
+        android:id="@+id/sahabat-logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/salesButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/sahabat-logo"
+        android:layout_below="@+id/sahabat-logo"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/shape"
+        android:elevation="50dp"
+        android:text="@string/sales"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/salesButton"
+        android:layout_below="@+id/salesButton"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/shape"
+        android:elevation="50dp"
+        android:text="@string/search"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sahabat</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="sales">Sales</string>
+    <string name="search">Search</string>
+    <string name="searchItem">Search Item</string>
+    <string name="productName">Name</string>
+</resources>

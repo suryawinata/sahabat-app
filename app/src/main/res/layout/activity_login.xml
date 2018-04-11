@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.toko.sahabat.LoginActivity">
+
+    <ImageView
+        android:id="@+id/sahabat-logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/usernameField"
+        android:layout_alignStart="@+id/usernameField"
+        android:layout_marginBottom="76dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/passwordField"
+        android:layout_centerVertical="true"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_action_username"
+        android:ems="10"
+        android:hint="@string/username"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:inputType="textPersonName"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/usernameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/passwordField"
+        android:layout_below="@+id/passwordField"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/shape"
+        android:elevation="50dp"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+</RelativeLayout>
